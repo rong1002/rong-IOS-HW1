@@ -13,6 +13,8 @@
 		91C78977252A065300AA148D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91C78976252A065300AA148D /* Preview Assets.xcassets */; };
 		91C78982252A065400AA148D /* IOS_HW1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C78981252A065400AA148D /* IOS_HW1Tests.swift */; };
 		91C7898D252A065400AA148D /* IOS_HW1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C7898C252A065400AA148D /* IOS_HW1UITests.swift */; };
+		91C7899E252A068100AA148D /* SwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C7899D252A068100AA148D /* SwitchView.swift */; };
+		91C789A3252A069900AA148D /* FriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C789A2252A069900AA148D /* FriendView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		91C78988252A065400AA148D /* IOS-HW1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-HW1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C7898C252A065400AA148D /* IOS_HW1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_HW1UITests.swift; sourceTree = "<group>"; };
 		91C7898E252A065400AA148D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91C7899D252A068100AA148D /* SwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchView.swift; sourceTree = "<group>"; };
+		91C789A2252A069900AA148D /* FriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				91C7896F252A064D00AA148D /* IOS_HW1App.swift */,
 				91C78971252A064D00AA148D /* ContentView.swift */,
+				91C7899D252A068100AA148D /* SwitchView.swift */,
+				91C789A2252A069900AA148D /* FriendView.swift */,
 				91C78973252A065300AA148D /* Assets.xcassets */,
 				91C78978252A065300AA148D /* Info.plist */,
 				91C78975252A065300AA148D /* Preview Content */,
@@ -261,6 +267,8 @@
 			files = (
 				91C78972252A064D00AA148D /* ContentView.swift in Sources */,
 				91C78970252A064D00AA148D /* IOS_HW1App.swift in Sources */,
+				91C789A3252A069900AA148D /* FriendView.swift in Sources */,
+				91C7899E252A068100AA148D /* SwitchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
